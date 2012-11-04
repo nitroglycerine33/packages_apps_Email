@@ -19,7 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
+    android:background="@android:color/black"
     >
     <ProgressBar
         android:id="@+id/loading_progress"
@@ -108,7 +108,7 @@
                         android:textColor="@color/text_primary_color"
                         android:singleLine="true"
                         android:ellipsize="end"
-                        style="@android:style/Widget.Holo.Light.Tab"
+                        style="@android:style/Widget.Holo.Tab"
                         />
                     <Button
                         android:id="@+id/show_invite"
@@ -120,7 +120,7 @@
                         android:textColor="@color/text_primary_color"
                         android:singleLine="true"
                         android:ellipsize="end"
-                        style="@android:style/Widget.Holo.Light.Tab"
+                        style="@android:style/Widget.Holo.Tab"
                         />
                     <Button
                         android:id="@+id/show_attachments"
@@ -131,7 +131,7 @@
                         android:textColor="@color/text_primary_color"
                         android:singleLine="true"
                         android:ellipsize="end"
-                        style="@android:style/Widget.Holo.Light.Tab"
+                        style="@android:style/Widget.Holo.Tab"
                         />
                     <!-- filler -->
                     <View

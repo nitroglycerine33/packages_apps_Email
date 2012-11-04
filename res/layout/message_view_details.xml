@@ -22,6 +22,7 @@
     android:paddingTop="14dp"
     android:paddingBottom="7dp"
     android:orientation="vertical"
+    android:background="#ff0f0f0f"
     android:stretchColumns="2"
     android:shrinkColumns="2"
     >

@@ -16,7 +16,7 @@
 
 <!-- non-xlarge.  See also values-xlarge for specializations for xlarge screens -->
 <resources>
-    <style name="EmailTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="EmailTheme" parent="@android:style/Theme.Holo">
     </style>
 
     <style name="ThemeNoTitleBar" parent="android:Theme.NoTitleBar">
@@ -34,6 +34,12 @@
     <style name="accountSetupHeadline">
         <item name="android:textSize">22sp</item>
         <item name="android:textColor">@color/account_setup_headline_color</item>
+    </style>
+
+    <!-- Info text in any account setup screen -->
+    <style name="accountSetupInfoText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/account_setup_info_text_color</item>
     </style>
 
     <!-- Wizard buttons on the account setup screens -->
@@ -54,7 +60,7 @@
     </style>
 
     <!-- EditText style without the "tray" -->
-    <style name="PlainEditText" parent="android:Widget.Holo.Light.EditText">
+    <style name="PlainEditText" parent="android:Widget.Holo.EditText">
         <item name="android:background">@null</item>
     </style>
 
@@ -148,7 +154,7 @@
         <item name="android:background">?android:attr/dividerHorizontal</item>
     </style>
 
-    <style name="message_view_tab" parent="@android:style/Widget.Holo.Light.Tab">
+    <style name="message_view_tab" parent="@android:style/Widget.Holo.Tab">
         <item name="android:layout_height">32dip</item>
         <item name="android:gravity">center</item>
         <item name="android:textSize">14dip</item>
@@ -220,7 +226,7 @@
     </style>
 
     <style name="QuotedTextHeaderStyle">
-        <item name="android:textColor">#777777</item>
+        <item name="android:textColor">#BFBFBF</item>
         <item name="android:textSize">12sp</item>
     </style>
 </resources>

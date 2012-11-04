@@ -733,6 +733,12 @@ as <xliff:g id="filename">%s</xliff:g>.</string>
     <string name="account_setup_options_mail_check_frequency_30min">Every 30 minutes</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
     <string name="account_setup_options_mail_check_frequency_1hour">Every hour</string>
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->
+    <string name="account_setup_options_mail_check_frequency_2hour">Every 2 hours</string>
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->
+    <string name="account_setup_options_mail_check_frequency_4hour">Every 4 hours</string>
+    <!-- In Account setup options & Account Settings screens, email check frequency option -->
+    <string name="account_setup_options_mail_check_frequency_1day">Every day</string>
     <!-- Check box label on "Set up email" screen to make this the default account -->
     <!-- Note, this should usually match the default account summary preference string -->
     <string name="account_setup_options_default_label">Send email from this account by default.</string>
@@ -928,6 +934,7 @@ as <xliff:g id="filename">%s</xliff:g>.</string>
     <string name="account_settings_background_attachments_summary">
         Auto-download attachments to recent messages via Wi-Fi</string>
     <string name="account_settings_notify_label">Email notifications</string>
+    <string name="account_settings_notify_light_label">Use notification LED</string>
     <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts
         [CHAR LIMIT=50] -->
     <string name="account_settings_summary">Sync frequency, notifications, etc.</string>
